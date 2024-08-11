@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fetch GET, POST, DELETE Example</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<h2>Create a New Post</h2>
+		<form id="post-form">
+			<label for="userId">User ID:</label>
+			<input type="number" id="userId" required />
+			<label for="title">Title:</label>
+			<input type="text" id="title" required />
+			<label for="body">Body:</label>
+			<textarea id="body" required></textarea>
+			<button type="submit">Create Post</button>
+		</form>
+
+		<h1>Posts</h1>
+		<ul id="posts-list"></ul>
+
+		<script src="index.js"></script>
+	</body>
+</html>
